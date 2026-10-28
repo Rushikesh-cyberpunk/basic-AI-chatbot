@@ -1,7 +1,7 @@
 import requests
 
 
-API_KEY = 
+GEMINI_API_KEY = 
 API_URL = 
 
 system_prompt = {
@@ -26,7 +26,7 @@ while True:
     })
 
     headers = {
-        "Authorization": f"Bearer {API_KEY}",
+        "Authorization": f"Bearer {GEMINI_API_KEY}",
         "Content-Type": "application/json"
     }
 
